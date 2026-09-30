@@ -1,0 +1,60 @@
+# OS junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude Code metadata
+.agents/
+.claude/
+skills-lock.json
+
+# dependencies
+node_modules/
+package-lock.json
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+build/
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+/ios
+/android
+
+# Metro
+.metro-health-check*
+
+# debug / logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# environment
+.env
+.env.local
+.env*.local
+
+# macOS
+*.pem
+
+# typescript
+*.tsbuildinfo
